@@ -51,3 +51,4 @@ if __name__ == "__main__":
     print("Bienvenido al sistema de gestión de ventas")
     pausar()
     menu()
+    

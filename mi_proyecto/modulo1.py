@@ -27,3 +27,6 @@ def ingresar_ventas(ventas):
         else:
             print('Opción no valida. Saliendo de ventas.')
             break
+        
+        
+def
