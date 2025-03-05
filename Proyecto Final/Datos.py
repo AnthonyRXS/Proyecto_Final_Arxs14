@@ -11,5 +11,3 @@ df_emisions_co2_per_capita = df[df['Type'] == 'Emissions per capita (metric tons
 # Mostrar los primeros registros de cada DataFrame
 print(df_emisions_co2.head())
 print(df_emisions_co2_per_capita.head())
-
-
