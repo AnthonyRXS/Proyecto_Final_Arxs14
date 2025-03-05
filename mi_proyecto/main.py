@@ -1,5 +1,5 @@
 import os
-from modulo1 import ingresar_ventas
+from modulo1 import ingresar_ventas, guardar_ventas
 
 
 def limpiar_terminal():
@@ -15,7 +15,7 @@ def menu():
     ventas = []  # Lista para almacenar las ventas temporalmente
     while True:
         print("\n--- Menú Principal ---")
-        print("1. Ingresar datos de ventas curso UNA")
+        print("1. Ingreso de Ventas1")
         print("2. Guardar datos en arcihvo CSV")
         print("3. Analizar venta")
         print("4. Salir")
@@ -29,9 +29,9 @@ def menu():
             pausar()
         elif opcion == "2":
             limpiar_terminal()
-            
             print("\n--- Guardar Ventas ---")
-            #guardar_csv
+            guardar_ventas(ventas)
+            ventas = []
             pausar()
         elif opcion == "3":
             limpiar_terminal()
